@@ -106,3 +106,24 @@ elif marks >= 70:
 
 else:
     print("Fail")
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+operation = input("Enter operation (+,-,*,/): ")
+
+if operation == "+":
+    print(a+b)
+
+elif operation == "-":
+    print(a-b)
+
+elif operation == "*":
+    print(a*b)
+
+elif operation == "/":
+    print(a/b)
+
+else:
+    print("Invalid operator")
