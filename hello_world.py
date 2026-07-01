@@ -11,3 +11,11 @@ print(2 + 8)
 print(6 - 3)
 print(3 * 34)
 print(89 / 5)
+
+name = "Shehbaz"
+age = 20
+semester = 2
+
+print("Name:", name)
+print("Age:", age)
+print("Semester:", semester)
